@@ -75,6 +75,8 @@
 .article {
     background-color: #bccbde;
     grid-column-start: 2;
+    display: grid;
+    gap: 15px;
 }
 
 .article p {
@@ -88,6 +90,7 @@
     background-color: #FFFFFF;
     color: black;
     text-align: center;
+    height: 200px;
 }
 
 .card p {
