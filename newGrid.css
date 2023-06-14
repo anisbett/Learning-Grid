@@ -74,6 +74,7 @@
 
 .article {
     background-color: #bccbde;
+    grid-column-start: 2;
 }
 
 .article p {
@@ -102,10 +103,11 @@
 
 .footer {
     background-color: #393f4d;
+    grid-column-end: span 2;
 }
 
 .footer p {
     font-size: 13px;
     font-weight: normal;
-    grid-column-end: span 2;
+    
 }
