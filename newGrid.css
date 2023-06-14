@@ -20,6 +20,7 @@
 
 .header {
     background-color: #393f4d;
+    grid-column-end: span 2;
 }
 
 .menu ul,
@@ -91,4 +92,5 @@
 .footer p {
     font-size: 13px;
     font-weight: normal;
+    grid-column-end: span 2;
 }
